@@ -32,7 +32,7 @@ No IPv6 Internet connectivity.
 | router2.eth0_1 | 2001:6707:145:182::2 | /64 | FE80::2 | N/A |
 | switch.vlan153 | 2001:6707:145:153::3 | /64 | FE80::3 | FE80::1 |
 | ubuntu1.eth0 | 2001:6707:145:153::2 | /64 | FE80::2 | FE80::1 |
-| ubuntu2.eth0 | SLAAC | /64 | N/A | FE80::1 |
+| ubuntu2.eth0 | 2001:6707:145:153::2 | /64 | N/A | FE80::1 |
 
 ---
 
