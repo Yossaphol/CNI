@@ -85,3 +85,40 @@
 - Default Route สำหรับออก Internet คือ **10.70.38.1**
 - ใช้ NAT แบบ **PAT (Port Address Translation)**  
   เพื่อให้ Network ภายใน Topology ออก Internet ผ่าน IP ของ CORE-ROUTER
+
+![Network Allocation](network-allocation.png)
+
+## Your Network Allocation
+
+### Allocated Subnet
+| Description | Value |
+|------------|-------|
+| Allocated Subnet | 172.29.2.0/23 |
+| Network Address | 172.29.2.0 |
+
+---
+
+### VLAN Assignment
+| Variable | Name | VLAN ID |
+|--------|------|---------|
+| VLAN A | VLAN X | 1367 |
+| VLAN B | VLAN Y | 3666 |
+| VLAN C | VLAN Z | 843 |
+| VLAN D | IPv6 Subnet ID 1 | 1 |
+| VLAN E | IPv6 Subnet ID 2 | 2 |
+
+---
+
+## Your Devices
+
+| Device (Management Interface) | Management IP |
+|------------------------------|---------------|
+| CORE-ROUTER (e0_0) | 10.70.38.45 |
+| MAIN-ROUTER | Not assigned |
+| SUB-ROUTER | Not assigned |
+| LEFT-SWITCH | Not assigned |
+| RIGHT-SWITCH | Not assigned |
+| PC-A | Not assigned |
+| PC-B | Not assigned |
+| PC-C | Not assigned |
+| PC-D | Not assigned |
